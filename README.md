@@ -74,3 +74,6 @@ Frontend config file contents
 ![Create fundraiser page](https://raw.githubusercontent.com/dudakovict/Fether/main/images/create.png)
 ![Fundraiser page](https://raw.githubusercontent.com/dudakovict/Fether/main/images/fundraiser.png)
 ![Reqeusts page](https://raw.githubusercontent.com/dudakovict/Fether/main/images/requests.png)
+![test image size](https://raw.githubusercontent.com/dudakovict/Fether/main/images/create.png){:class="img-responsive"}
+![test image size](https://raw.githubusercontent.com/dudakovict/Fether/main/images/create.png){:height="50%" width="50%"}
+![test image size](https://raw.githubusercontent.com/dudakovict/Fether/main/images/create.png){:height="700px" width="400px"}
