@@ -70,7 +70,7 @@ Frontend config file contents
 - Run the application
   `npm run dev`
 
-![Index page](https://prnt.sc/wfaryf)
-![Index page](https://prnt.sc/wfas61)
-![Index page](https://prnt.sc/wfasco)
-![Index page](https://prnt.sc/wfasj1)
+![Index page](https://github.com/dudakovict/Fether/tree/main/images/index.png)
+![Create fundraiser page](https://github.com/dudakovict/Fether/tree/main/images/create.png)
+![Fundraiser page](https://github.com/dudakovict/Fether/tree/main/images/fundraiser.png)
+![Reqeusts page](https://github.com/dudakovict/Fether/tree/main/images/requests.png)
