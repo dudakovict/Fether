@@ -70,10 +70,9 @@ Frontend config file contents
 - Run the application
   `npm run dev`
 
+## Application snippets
+
 ![Index page](https://raw.githubusercontent.com/dudakovict/Fether/main/images/index.png)
 ![Create fundraiser page](https://raw.githubusercontent.com/dudakovict/Fether/main/images/create.png)
 ![Fundraiser page](https://raw.githubusercontent.com/dudakovict/Fether/main/images/fundraiser.png)
 ![Reqeusts page](https://raw.githubusercontent.com/dudakovict/Fether/main/images/requests.png)
-![test image size](https://raw.githubusercontent.com/dudakovict/Fether/main/images/create.png?v=4&s=200)
-![test image size](https://raw.githubusercontent.com/dudakovict/Fether/main/images/create.png?v=4&s=400)
-![test image size](https://raw.githubusercontent.com/dudakovict/Fether/main/images/create.png?v=4&s=600)
