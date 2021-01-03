@@ -1,7 +1,8 @@
 # Fether
 
 A blockchain web application based on Ethereum for creating and contributing to fundraisers.
-The contract is deployed on a Rinkeby test network and requires **MetaMask** to be installed in order to ineteract with it.
+The contract is deployed on a Rinkeby test network and requires **MetaMask** installed in order to ineteract with it.
+If You do not have **MetaMask**, You can install it [here](https://metamask.io/download.html).
 
 ## Deployment
 
