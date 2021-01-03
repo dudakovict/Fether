@@ -17,7 +17,7 @@ class Request extends React.Component<IRequestProps> {
 
     this.setState({ loadingApproval: true, errorMessage: '' });
 
-    const fundraiser = (await getFundraiser(this.props.address)) as Fundraiser;
+    const fundraiser = await getFundraiser(this.props.address);
     try {
       const tx = await fundraiser.approveWithdrawRequest(this.props.id);
 
@@ -35,7 +35,7 @@ class Request extends React.Component<IRequestProps> {
 
     this.setState({ loadingComplete: true, errorMessage: '' });
 
-    const fundraiser = (await getFundraiser(this.props.address)) as Fundraiser;
+    const fundraiser = await getFundraiser(this.props.address);
 
     try {
       const tx = await fundraiser.completeWithdrawRequest(this.props.id);

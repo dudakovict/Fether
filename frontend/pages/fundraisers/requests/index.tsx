@@ -23,7 +23,7 @@ interface IReqeustsProps {
 class Requests extends React.Component<IReqeustsProps> {
   static async getInitialProps({ query }: NextPageContext) {
     const address = query.address;
-    const fundraiser = (await getFundraiser(address as string)) as Fundraiser;
+    const fundraiser = await getFundraiser(address as string);
 
     const requestCount = await (await fundraiser.requestCount()).toNumber();
     const donatorCount = await (await fundraiser.donatorCount()).toNumber();

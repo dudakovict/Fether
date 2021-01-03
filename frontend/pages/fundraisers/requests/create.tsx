@@ -34,9 +34,7 @@ class CreateRequest extends React.Component<ICreateRequestProps> {
     const { title, amount } = this.state;
 
     try {
-      const fundraiser = (await getFundraiser(
-        this.props.address
-      )) as Fundraiser;
+      const fundraiser = await getFundraiser(this.props.address);
 
       const balance = ethers.utils
         .formatEther(

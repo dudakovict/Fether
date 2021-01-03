@@ -22,7 +22,7 @@ class DonationForm extends React.Component<IDonationFormProps> {
 
     this.setState({ loading: true, errorMessage: '' });
 
-    const fundraiser = (await getFundraiser(this.props.address)) as Fundraiser;
+    const fundraiser = await getFundraiser(this.props.address);
     try {
       const tx = await fundraiser.donate({
         value: ethers.utils.parseEther(this.state.amount),
