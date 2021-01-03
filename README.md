@@ -13,14 +13,16 @@ Create two seperate config files (.env) in root and frontend directory.
 
 Root config file contents
 
-- INFURA_API_KEY=""
-- RINKEBY_PRIVATE_KEY=""
-- ETHERSCAN_API_KEY=""
+- `INFURA_API_KEY=""`
+- `RINKEBY_PRIVATE_KEY=""`
+- `ETHERSCAN_API_KEY=""`
 
 Frontend config file contents
 
-- DEPLOYED_CONTRACT_ADDRESS=""
-- INFURA_API_KEY=""
+- `DEPLOYED_CONTRACT_ADDRESS=""`
+- `INFURA_API_KEY=""`
+
+### Follow steps
 
 - Clone the repository
   `git clone https://github.com/dudakovict/Fether.git`
