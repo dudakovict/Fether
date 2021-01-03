@@ -20,11 +20,11 @@ export default class CreateFundraiser extends React.Component {
     this.setState({ loading: true, errorMessage: '' });
 
     try {
-      const tx = (await factory.createFundraiser(
+      const tx = await factory.createFundraiser(
         this.state.recipient,
         this.state.fundingGoal,
         this.state.minimumDonation
-      )) as FundraiserFactory;
+      );
 
       await tx.wait();
 
