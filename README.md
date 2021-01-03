@@ -7,42 +7,6 @@ The contract is deployed on a Rinkeby test network and requires **MetaMask** to 
 
 Application is deployed using Vercel on https://fether.vercel.app/
 
-## Run the application on Your machine
-
-Create two seperate config files (.env) in root and frontend directory.
-
-Root config file contents
-
-- `INFURA_API_KEY=""`
-- `RINKEBY_PRIVATE_KEY=""`
-- `ETHERSCAN_API_KEY=""`
-
-Frontend config file contents
-
-- `DEPLOYED_CONTRACT_ADDRESS=""`
-- `INFURA_API_KEY=""`
-
-### Follow steps
-
-- Clone the repository
-  `git clone https://github.com/dudakovict/Fether.git`
-- Switch directory
-  `cd fether`
-- Install dependencies
-  `npm install`
-- Build project
-  `npm run build`
-- Run test
-  `npm run test`
-- Deploy contract and save the address in a config file
-  `npm run deploy`
-- Switch to frontend
-  `cd frontend`
-- Install dependencies
-  `npm install`
-- Run the application
-  `npm run dev`
-
 ## Development stack
 
 Languages
@@ -69,3 +33,44 @@ Frontend
 
 - React
 - Next
+
+## Run the application on Your machine
+
+Create two seperate config files (.env) in root and frontend directory.
+
+Root config file contents
+
+- `INFURA_API_KEY=""`
+- `RINKEBY_PRIVATE_KEY=""`
+- `ETHERSCAN_API_KEY=""`
+
+Frontend config file contents
+
+- `DEPLOYED_CONTRACT_ADDRESS=""`
+- `INFURA_API_KEY=""`
+
+### Quick start
+
+- Clone the repository
+  `git clone https://github.com/dudakovict/Fether.git`
+- Switch directory
+  `cd fether`
+- Install dependencies
+  `npm install`
+- Build project
+  `npm run build`
+- Run tests
+  `npm run test`
+- Deploy contract and manually save the address in a config file
+  `npm run deploy`
+- Switch to frontend
+  `cd frontend`
+- Install dependencies
+  `npm install`
+- Run the application
+  `npm run dev`
+
+![Index page](https://prnt.sc/wfaryf)
+![Index page](https://prnt.sc/wfas61)
+![Index page](https://prnt.sc/wfasco)
+![Index page](https://prnt.sc/wfasj1)
